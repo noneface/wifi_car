@@ -5,7 +5,7 @@
 
 *  arduino作为主控，esp8266接收控制wifi控制信号，l298n为4个电机作为驱动。
 
-<img src="/images/car.jpg">
+<img src="/images/car.JPG">
 
 <h2>软件部分</h2>
 *  上位机控制端利用python 的django框架，搭建了一个web app，通过web的操作，来对小车进行操作。

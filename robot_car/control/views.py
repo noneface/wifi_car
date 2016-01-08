@@ -6,7 +6,7 @@ import time
 # Create your views here.
 
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-sock.bind(("192.168.137.1",8888))
+sock.bind(("192.168.137.1",8888))  #  修改第一个变量 为本机ip地址
 sock.listen(1)
 connection,address = sock.accept()
 print address[0],"robot car connected  OK!"

@@ -20,7 +20,7 @@ void setup() {
  delay(3000);
   mySerial.println("AT+CIPMUX=0");  //set mode
   delay(1000);
-  mySerial.println("AT+CIPSTART=\"TCP\",\"192.168.137.1\",8888");// connect server
+  mySerial.println("AT+CIPSTART=\"TCP\",\"192.168.137.1\",8888");// connect server  修改中间ip地址为本机ip
   delay(1000);
 }
 void rx_empty(void) 

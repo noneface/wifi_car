@@ -5,7 +5,7 @@
 
 *  arduino作为主控，esp8266接收控制wifi控制信号，l298n为4个电机作为驱动。
 
-<img src="/imgages/car.jpg">
+<img src="/images/car.jpg">
 
 <h2>软件部分</h2>
 *  上位机控制端利用python 的django框架，搭建了一个web app，通过web的操作，来对小车进行操作。
@@ -13,4 +13,4 @@
 *  在django的views.py模块中，将本机搭建为一个 web server，等待小车的连接。
 *  在car.ino中，connect server 的ip为运行python django服务的对应ip。
 
-<img src="/imgages/web.png">
+<img src="/images/web.png">
